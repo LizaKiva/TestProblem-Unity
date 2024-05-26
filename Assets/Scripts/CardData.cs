@@ -6,9 +6,8 @@ using UnityEngine;
 namespace Assets.Scripts
 {
     [Serializable]
-    public class PoolCard
+    public class CardData
     {
-        [SerializeField]public List<CardData> data;
-
+        [SerializeField] public string cardName;
     }
 }

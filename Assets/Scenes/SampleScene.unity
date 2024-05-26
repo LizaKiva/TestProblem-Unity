@@ -158,7 +158,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.15777232}
   m_AnchorMax: {x: 1, y: 0.57912856}
-  m_AnchoredPosition: {x: -0.018013, y: -0.38700104}
+  m_AnchoredPosition: {x: -0.018005371, y: -0.38700867}
   m_SizeDelta: {x: -0.82500076, y: 0.8362007}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &137867226
@@ -241,7 +241,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.31731036, y: 0.07073006}
   m_AnchorMax: {x: 0.69975877, y: 0.886675}
-  m_AnchoredPosition: {x: 0.5, y: 0.42510223}
+  m_AnchoredPosition: {x: 0.5, y: 0.42510986}
   m_SizeDelta: {x: 3.2947998, y: 0.3632965}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &184233316
@@ -440,7 +440,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1191336910}
   - component: {fileID: 1191336909}
-  - component: {fileID: 1191336908}
   m_Layer: 0
   m_Name: CardManager
   m_TagString: Untagged
@@ -448,21 +447,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1191336908
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1191336907}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3211026ca76939d4fa15d685c30753e6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cards:
-  - {fileID: 0}
-  - {fileID: 0}
 --- !u!114 &1191336909
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -475,8 +459,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2aaec2c1c87b9e342b42ee8d2812ef9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cards: {fileID: 1191336908}
-  currentCard: {fileID: 0}
+  value: 0
+  cards:
+    data:
+    - cardName: Mew
+    - cardName: Moo
+    - cardName: MooMoo
+    - cardName: I want to sleep
+    - cardName: a lot
+    - cardName: it is sad
+    - cardName: i am going insane
+  card:
+    cardNumber: {fileID: 1609759062}
+    cardName: {fileID: 137867226}
 --- !u!4 &1191336910
 Transform:
   m_ObjectHideFlags: 0
