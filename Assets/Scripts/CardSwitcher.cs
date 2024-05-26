@@ -57,7 +57,6 @@ namespace Assets.Scripts
         public void Solve()
         {
             // Здесь вам нужно написать фунцию из задания и вывести ее результат с помощью вывода, описанного ниже
-            Debug.Log(GetSecretValue().ToString());
             Debug.Log("Ваш ответ");
         }
     }
